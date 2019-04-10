@@ -53,6 +53,10 @@ nginx_kube_apiserver_healthcheck_port: 8081
 # http_proxy: ""
 # https_proxy: ""
 
+http_proxy: "http://one.proxy.att.com:8888"
+https_proxy: "http://one.proxy.att.com:8888"
+
+
 ## Refer to roles/kubespray-defaults/defaults/main.yml before modifying no_proxy
 # no_proxy: ""
 
